@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: hsl(212, 45%, 89%);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+.main{
+    width: 23.75rem;
+    height: 36.875rem;
+    background: white;
+    margin: 5% auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1rem 0rem 2rem rgb(155, 155, 155);
+}
+.main img{
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.main h1{
+    color: hsl(218, 44%, 22%);
+    font-size: 1.6rem;
+    margin-left: 1.5rem; 
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+.main p{
+    color: hsl(220, 15%, 55%);
+    margin-left: 1.75rem; 
+    margin-right: 1.75rem;
+    margin-bottom: 2.5rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    margin: 1rem auto;
+    font-size: .7rem;
+}
